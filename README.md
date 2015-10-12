@@ -23,3 +23,14 @@ make it automatically but would be prone to subtle errors.
     cd ~
 
     ln -nsf path/to/dotfiles/tmux .tmux
+
+#FAQ
+- I'm using rkj-repos theme in oh-my-zsh but the promt has gone crazy!
+
+Fix: https://github.com/robbyrussell/oh-my-zsh/issues/2630
+
+- Janus doesn't work with nvim!
+
+    ln -nsf .vimrc .nvimrc
+    ln -nsf .vim .nvim
+
