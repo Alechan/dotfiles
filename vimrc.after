@@ -1,0 +1,4 @@
+set tw=100
+set formatoptions+=t
+set virtualedit=block
+set autoindent
