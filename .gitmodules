@@ -16,3 +16,6 @@
 [submodule "janus/vim-powerline"]
 	path = janus/vim-powerline
 	url = git@github.com:Lokaltog/vim-powerline.git
+[submodule "janus/gruvbox"]
+	path = janus/gruvbox
+	url = https://github.com/morhetz/gruvbox.git

@@ -9,6 +9,8 @@ highlight DiffDelete cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Re
 highlight DiffChange cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
 highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Red
 
-" Settings for vim-solarized
+" Settings for colorschemes
+let g:gruvbox_italic=1
 set background=dark
-colorscheme solarized
+" colorscheme solarized
+colorscheme gruvbox
