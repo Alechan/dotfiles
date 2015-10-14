@@ -1,9 +1,6 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
-[submodule "tmux/plugins/tmux-sensible"]
-	path = tmux/plugins/tmux-sensible
-	url = git@github.com:tmux-plugins/tmux-sensible.git
 [submodule "tmux/plugins/tmux-yank"]
 	path = tmux/plugins/tmux-yank
 	url = git@github.com:tmux-plugins/tmux-yank.git
@@ -13,3 +10,18 @@
 [submodule "janus/vim-python-test-runner"]
 	path = janus/vim-python-test-runner
 	url = git@github.com:Alechan/vim-python-test-runner.git
+[submodule "janus/tcomment_vim"]
+	path = janus/tcomment_vim
+	url = https://github.com/tomtom/tcomment_vim
+[submodule "janus/vim-eunuch"]
+	path = janus/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch
+[submodule "REQGS-DONT-LINK/gnome-terminal-colors-solarized"]
+	path = REQGS-DONT-LINK/gnome-terminal-colors-solarized
+	url = https://github.com/Anthony25/gnome-terminal-colors-solarized
+[submodule "janus/vim-powerline"]
+	path = janus/vim-powerline
+	url = git@github.com:Lokaltog/vim-powerline.git
+[submodule "REQS-DONT-LINK/dircolors-solarized"]
+	path = REQS-DONT-LINK/dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized
