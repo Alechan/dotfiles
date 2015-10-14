@@ -1,2 +1,4 @@
 "Cambiar el leader de la \ al spacio
 let mapleader = "\<Space>"
+"Deshabilitar el NERDcommenter dado que uso el t_comment (en ~/.janus)
+call janus#disable_plugin('nerdcommenter')

@@ -12,4 +12,4 @@
 	url = git@github.com:tmux-plugins/tpm.git
 [submodule "janus/vim-python-test-runner"]
 	path = janus/vim-python-test-runner
-	url = https://github.com/JarrodCTaylor/vim-python-test-runner
+	url = git@github.com:Alechan/vim-python-test-runner.git

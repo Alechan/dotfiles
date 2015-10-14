@@ -7,6 +7,8 @@ only .vim.after and .vim.before
 - zsh
 - tmux
 - janus (intented to be added in the future instead of being requisite)
+- [gnome terminal solarized color scheme (for better contrast)](https://github.com/Anthony25/gnome-terminal-colors-solarized<Paste>) . 
+- vim 
 
 #Includes:
 - oh-my-zsh
@@ -15,9 +17,11 @@ only .vim.after and .vim.before
 #How to
     git clone --recursive https://github.com/Alechan/dotfiles ~/dotfiles
 
-For every file in this repo you'd like to use, there should be a
+For ALMOST every file in this repo you'd like to use, there should be a
 symbolic link in ~/ pointing at it. Considered making a bash script to
 make it automatically but would be prone to subtle errors.
+
+The exceptions to the rule are folders/files with names telling otherwise or obvious non-dotfiles (examples, README.md or REQS-DONT-LINK)
 
 ##Example:
     cd ~
