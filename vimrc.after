@@ -2,3 +2,9 @@ set tw=100
 set formatoptions+=t
 set virtualedit=block
 set autoindent
+
+" Colores para el vimdiff. Los pongo aca porque por ahora todo lo de adentro de .vim es de Janus
+highlight DiffAdd    cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffDelete cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffChange cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Red

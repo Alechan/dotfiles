@@ -92,6 +92,8 @@ source $ZSH/oh-my-zsh.sh
 # -------------------------------------------------------------------
 
 #CUIDADOOOO!: ZSH YA TIENE ALIASES PARA GIT!
+#
+#IMPORTANTE: PUEDE QUE HAYA BINDS ESPECIFICOS DE ESTA MAQUINA EN /oh-my-zsh/custom
 alias ga='git add'
 alias gaa='git add -A'
 alias gp='git push'

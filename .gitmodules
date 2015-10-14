@@ -10,3 +10,6 @@
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
 	url = git@github.com:tmux-plugins/tpm.git
+[submodule "janus/vim-python-test-runner"]
+	path = janus/vim-python-test-runner
+	url = https://github.com/JarrodCTaylor/vim-python-test-runner

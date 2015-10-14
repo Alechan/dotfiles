@@ -1,2 +1,2 @@
-"Cambiar el leader de la \ a la coma
-let mapleader=","
+"Cambiar el leader de la \ al spacio
+let mapleader = "\<Space>"
