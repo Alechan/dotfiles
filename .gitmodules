@@ -1,9 +1,9 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
-	url = git://github.com/robbyrussell/oh-my-zsh.git
+	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule "janus/vim-python-test-runner"]
 	path = janus/vim-python-test-runner
-	url = git@github.com:Alechan/vim-python-test-runner.git
+	url = https://github.com/Alechan/vim-python-test-runner.git
 [submodule "janus/tcomment_vim"]
 	path = janus/tcomment_vim
 	url = https://github.com/tomtom/tcomment_vim
@@ -15,7 +15,7 @@
 	url = https://github.com/Anthony25/gnome-terminal-colors-solarized
 [submodule "janus/vim-powerline"]
 	path = janus/vim-powerline
-	url = git@github.com:Lokaltog/vim-powerline.git
+	url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "janus/gruvbox"]
 	path = janus/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
