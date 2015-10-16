@@ -7,12 +7,12 @@ only .vim.after and .vim.before
 - zsh
 - tmux
 - janus (intented to be added in the future instead of being requisite)
-- [gnome terminal solarized color scheme (for better contrast)](https://github.com/Anthony25/gnome-terminal-colors-solarized<Paste>) . 
 - vim 
 
 #Includes:
 - oh-my-zsh
 - tmux custom config and plugins: tmux-sensible, tmux-yank, tpm
+- [gruvbox vim theme](https://github.com/morhetz/gruvbox)
 
 #How to
     git clone --recursive https://github.com/Alechan/dotfiles ~/dotfiles
