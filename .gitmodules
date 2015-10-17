@@ -25,3 +25,6 @@
 [submodule "janus/vim-textobj-python"]
 	path = janus/vim-textobj-python
 	url = https://github.com/bps/vim-textobj-python
+[submodule "janus/vim-surround"]
+	path = janus/vim-surround
+	url = https://github.com/tpope/vim-surround.git
