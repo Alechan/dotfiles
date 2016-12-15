@@ -25,3 +25,27 @@ nnoremap <Leader>ntc :NosetestClass<CR>
 nnoremap <Leader>ntm :NosetestMethod<CR>
 nnoremap <Leader>ntb :NosetestBaseMethod<CR>
 nnoremap <Leader>rrt :RerunLastTests<CR>
+
+" Create new tab
+nnoremap <C-N> :tabe<CR>
+" Move between tabs
+nnoremap <C-H> :tabprevious<CR>
+nnoremap <C-L> :tabnext<CR>
+
+"" Dont automatically add a new line
+set textwidth=0
+
+"" Force modelica to mo filetype
+au BufRead,BufNewFile *.mo set filetype=modelica
+
+"""" SAVE WITH CTRL+S
+" If the current buffer has never been saved, it will have no name,
+" call the file browser to save it, otherwise just save it.
+command -nargs=0 -bar Update if &modified 
+                           \|    if empty(bufname('%'))
+                           \|        browse confirm write
+                           \|    else
+                           \|        confirm write
+                           \|    endif
+                           \|endif
+nnoremap <silent> <C-S> :<C-u>Update<CR>

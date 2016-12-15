@@ -143,3 +143,6 @@ function mkcd() {
 mkdir -p "$*" && cd "$*"
 }
 bindkey -v
+
+# Reverse search
+bindkey '^R' history-incremental-pattern-search-backward
