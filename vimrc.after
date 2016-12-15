@@ -25,3 +25,11 @@ nnoremap <Leader>ntc :NosetestClass<CR>
 nnoremap <Leader>ntm :NosetestMethod<CR>
 nnoremap <Leader>ntb :NosetestBaseMethod<CR>
 nnoremap <Leader>rrt :RerunLastTests<CR>
+
+" Settings for handling tabs
+map  <C-l> :tabn<CR>
+map  <C-h> :tabp<CR>
+map  <C-n> :tabnew<CR>
+
+"" Don't auto add \n after 80 or 100 characters
+set textwidth=0
