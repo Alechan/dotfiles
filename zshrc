@@ -55,7 +55,7 @@ plugins=(git)
 # User configuration
 
 #IMPORTANTE!: tener en cuenta el archivo path.zsh en oh-my-zsh/custom que tambien toca el PATH!
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.rbenv/plugins/ruby-build/bin:$HOME/.rbenv/bin:$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -133,6 +133,7 @@ alias capd='cap deploy'
 # -------------------------------------------------------------------
 
 alias cl='clear'
+alias powerdevs='/opt/powerdevs/bin/run.sh'
 
 
 # -------------------------------------------------------------------
@@ -144,5 +145,11 @@ mkdir -p "$*" && cd "$*"
 }
 bindkey -v
 
-# Reverse search
-bindkey '^R' history-incremental-pattern-search-backward
+# Bind reverse search to CTRL-R
+bindkey "^R" history-incremental-search-backward
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
+
+
+### Algo de ruby. Creo que para tener el environment
+eval "$(rbenv init -)"

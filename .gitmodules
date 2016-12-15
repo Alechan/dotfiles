@@ -28,3 +28,6 @@
 [submodule "janus/vim-surround"]
 	path = janus/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "tmux/plugins/tmux-resurrect"]
+	path = tmux/plugins/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect
