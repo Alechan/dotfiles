@@ -151,5 +151,9 @@ bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
 
 
-### Algo de ruby. Creo que para tener el environment
-eval "$(rbenv init -)"
+# Lo comento a esto porque se va a ejecutar cada vez que se habra un zsh nuevo y es una perdida de tiempo innecesaria. Recordad al usar ruby de ejecutar ese comando y listo.
+# ## Check if "rbenv" installed
+# if hash rbenv 2>/dev/null; then
+#   eval "$(rbenv init -)" ### Algo de ruby. Creo que para tener el environment
+# fi
+
