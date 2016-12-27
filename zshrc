@@ -121,7 +121,7 @@ alias glg='git lg'
 # -------------------------------------------------------------------
 # Vim aliasas
 # -------------------------------------------------------------------
-alias vim=nvim
+#alias vim=nvim
 # -------------------------------------------------------------------
 # Capistrano aliases
 # -------------------------------------------------------------------
@@ -157,3 +157,5 @@ bindkey "^[[B" history-beginning-search-forward
 #   eval "$(rbenv init -)" ### Algo de ruby. Creo que para tener el environment
 # fi
 
+### PRUEBA PARA QUE VIM NO MUERA CON CTRL-S
+stty -ixon
