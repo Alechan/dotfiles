@@ -36,5 +36,6 @@ Fix: https://github.com/robbyrussell/oh-my-zsh/issues/2630
 - Janus doesn't work with nvim!
 
     ln -nsf .vimrc .nvimrc
+
     ln -nsf .vim .nvim
 
