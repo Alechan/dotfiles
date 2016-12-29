@@ -1,0 +1,8 @@
+" CTRL+C and CTRL+V behaviour for gvim for when in insert mode and visual mode
+" only (no conflict with previous bindings).
+" (when running vim in a terminal, this commands are usually responsibility of
+" the terminal (SHIFT+CTRL+V for example)
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <C-r><C-o>+
