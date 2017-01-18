@@ -4,5 +4,6 @@
 " the terminal (SHIFT+CTRL+V for example)
 vmap <C-c> "+yi
 vmap <C-x> "+c
-vmap <C-v> c<ESC>"+p
+" Comento el de vmap porque me rompe el "pasar a modo bloque
+" vmap <C-v> c<ESC>"+p
 imap <C-v> <C-r><C-o>+
