@@ -49,3 +49,17 @@ command -nargs=0 -bar Update if &modified
                            \|    endif
                            \|endif
 nnoremap <silent> <C-S> :<C-u>Update<CR>
+
+" Syntastic file types
+let g:syntastic_mode_map = {
+    \ "mode": "active",
+    \ "passive_filetypes": ["python"] }
+
+
+" Pymode
+" 1) Set the python as python 3
+let g:pymode_python = "python3"
+" 2) Set the 'virtualenv' as my anaconda path. It's not a virtualenv per sé but i don't use the system python path.
+let g:pymode_virtualenv_path = "/home/adanos/anaconda3"
+
+

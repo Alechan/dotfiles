@@ -40,3 +40,6 @@
 [submodule "janus/vim-colorschemes"]
 	path = janus/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "janus/python-mode"]
+	path = janus/python-mode
+	url = https://github.com/python-mode/python-mode.git
