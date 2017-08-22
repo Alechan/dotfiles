@@ -1,4 +1,4 @@
-set tw=100
+set tw=0
 set formatoptions+=t
 set virtualedit=block
 set autoindent
@@ -49,3 +49,18 @@ command -nargs=0 -bar Update if &modified
                            \|    endif
                            \|endif
 nnoremap <silent> <C-S> :<C-u>Update<CR>
+
+" LOS COMENTO PORUQE POR ALGUNA RAZÓN NO ANDAN (Además la v no anda en
+" nerdtree)
+" Change NERDTree split bindings
+" let NERDTreeMapOpenVSplit='v'
+" let NERDTreeMapOpenSplit='s'
+"" CTRL+C and CTRL+V behaviour for gvim for when in insert mode and visual mode
+" only (no conflict with previous bindings).
+" (when running vim in a terminal, this commands are usually responsibility of
+" the terminal (SHIFT+CTRL+V for example)
+vmap <C-c> "+yi
+vmap <C-x> "+c
+" Comento el de vmap porque me rompe el "pasar a modo bloque
+" vmap <C-v> c<ESC>"+p
+imap <C-v> <C-r><C-o>+
