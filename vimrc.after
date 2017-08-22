@@ -64,3 +64,14 @@ vmap <C-x> "+c
 " Comento el de vmap porque me rompe el "pasar a modo bloque
 " vmap <C-v> c<ESC>"+p
 imap <C-v> <C-r><C-o>+
+" Syntastic file types
+let g:syntastic_mode_map = {
+    \ "mode": "active",
+    \ "passive_filetypes": ["python"] }
+
+
+" Pymode
+" 1) Set the python as python 3
+let g:pymode_python = "python3"
+" 2) Set the 'virtualenv' as my anaconda path. It's not a virtualenv per sé but i don't use the system python path.
+let g:pymode_virtualenv_path = "/home/adanos/anaconda3"
