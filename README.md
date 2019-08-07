@@ -28,6 +28,21 @@ The exceptions to the rule are folders/files with names telling otherwise or obv
 
     ln -nsf path/to/dotfiles/tmux .tmux
 
+## Mac
+
+1. Install iterm2
+2. Load colors
+  * Open iterm2 -> Profiles -> Colors -> Color Presets -> Import -> Open:
+    iterm2_profile.itermcolors
+
+### Italic (undecided if it's better or not)
+
+3. Load italic config
+  * $ tic xterm-256color-italic.terminfo
+  * Open iterm2 -> Profiles -> Terminal -> Report Terminal Type:
+     xterm-256color-italic
+4) Set tmux as default command
+
 #FAQ
 - I'm using rkj-repos theme in oh-my-zsh but the promt has gone crazy!
 
