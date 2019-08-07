@@ -30,10 +30,15 @@ The exceptions to the rule are folders/files with names telling otherwise or obv
 
 ## Mac
 
+## Full profile
+1. Open iterm2 -> Profiles -> Other Actions ... -> Import JSON:
+  iterm2_profile.json
+
+## Specifics
 1. Install iterm2
 2. Load colors
   * Open iterm2 -> Profiles -> Colors -> Color Presets -> Import -> Open:
-    iterm2_profile.itermcolors
+    iterm2.itermcolors
 
 ### Italic (undecided if it's better or not)
 
