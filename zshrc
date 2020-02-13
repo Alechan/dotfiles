@@ -159,3 +159,6 @@ bindkey "^[[B" history-beginning-search-forward
 
 ### PRUEBA PARA QUE VIM NO MUERA CON CTRL-S
 stty -ixon
+
+# zsh-bd
+. $HOME/dotfiles/bd.zsh
