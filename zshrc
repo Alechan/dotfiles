@@ -50,7 +50,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git fd)
 
 # User configuration
 
@@ -159,3 +159,10 @@ bindkey "^[[B" history-beginning-search-forward
 
 ### PRUEBA PARA QUE VIM NO MUERA CON CTRL-S
 stty -ixon
+
+# zsh-bd para volver a atras del cd
+# https://github.com/Tarrasch/zsh-bd
+. $HOME/dotfiles/zsh-bd/bd.zsh
+
+# Export para que el man se vea con colorcitos usando bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"

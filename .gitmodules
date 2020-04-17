@@ -43,3 +43,6 @@
 [submodule "janus/python-mode"]
 	path = janus/python-mode
 	url = https://github.com/python-mode/python-mode.git
+[submodule "zsh-bd"]
+	path = zsh-bd
+	url = git@github.com:Tarrasch/zsh-bd.git
