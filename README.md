@@ -15,7 +15,16 @@ only .vim.after and .vim.before
 - [gruvbox vim theme](https://github.com/morhetz/gruvbox)
 
 #How to
+
+    # Clone recursively
     git clone --recursive https://github.com/Alechan/dotfiles ~/dotfiles
+    # Create linking script
+    python create_link_script.py
+    # Edit which files to link
+    vim link_script.bash
+    # Run the script
+    bash link_script.bash
+
 
 For ALMOST every file in this repo you'd like to use, there should be a
 symbolic link in ~/ pointing at it. Considered making a bash script to
